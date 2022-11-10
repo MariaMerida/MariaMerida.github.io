@@ -4,19 +4,15 @@
     border: 0;
     font-size: 100%;
     vertical-align: baseline;
-}
-body {
-    text-align: center;
-    font-family: sans-serif;
+.content {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-.head {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 63px;
-    background: #171717;
-    position: fixed;
-    width: 100%;
-    z-index: 100;
+.sau {
+    padding: 50px 0;
+    background: #303030;
 }
